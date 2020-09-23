@@ -1,5 +1,6 @@
 import React, { useReducer, useEffect } from "react";
 import "../App.css";
+import Navigation from "./Navigation";
 import Header from "./Header";
 import Movie from "./Movie";
 import Search from "./Search";
@@ -84,6 +85,7 @@ const App = () => {
 
     return (
     <div className="App">
+      <Navigation/>
       <Header text="HOOKED MOVIE SEARCH" />
       <Search search={search} />
       <p className="App-intro">Here are some of our favourite movies<br /> Search to discover more</p>
