@@ -18,6 +18,10 @@ create-react-app your-app-name
 
 ```
 
+Notes on deploying static site with cPanel [dev.to](https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6)
+
+[Serving apps with client side routing](https://create-react-app.dev/docs/deployment/)
+
 by The Utopian Fool
 
 :globe_with_meridians:
@@ -32,25 +36,36 @@ for the initial tutorials
 ------------------------------------------------------
 
 ## Instructions
-
+```
  yarn start
+```
+    
     Starts the development server.
 
+```
   yarn build
+```
+
     Bundles the app into static files for production.
 
+```
   yarn test
+```
+
     Starts the test runner.
 
+```
   yarn eject
-    Removes this tool and copies build dependencies, configuration files
+```
+
+Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
 
 We suggest that you begin by typing:
-
+```
   cd hooked
   yarn start
-
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
