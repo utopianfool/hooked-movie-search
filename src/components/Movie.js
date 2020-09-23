@@ -24,7 +24,7 @@ const Movie = ({ movie }) => {
           src={poster}
         />
       </div>
-      <p>({movie.Year})</p>
+      <p><strong>({movie.Year})</strong></p>
       <p><small>{movieId}</small></p>
       <div class="movie-links">
           <a target="_blank" rel="noopener noreferrer" href={movieLink}>
