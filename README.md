@@ -1,3 +1,57 @@
+# Hooked Movie Search React App
+
+A movie search app created with Javascript and React UI library. Data taken from [IMDb api](http://www.omdbapi.com/) API. Sign up for free key.
+
+The app is able to search for movies via the OMDB API and render the results to the user.
+
+You will need [Node.js](https://nodejs.org/en/)
+
+```
+
+# If you haven't installed create-react-app then type the following
+
+npm install -g create-react-app
+
+# Then install a fresh react app
+
+create-react-app your-app-name
+
+```
+
+by The Utopian Fool
+
+:globe_with_meridians:
+[Demo](https://hooked.utopianfool.co.uk)
+
+------------------------------------------------------
+
+with thanks to Samuel Omole
+https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/
+for the initial tutorials
+
+------------------------------------------------------
+
+## Instructions
+
+ yarn start
+    Starts the development server.
+
+  yarn build
+    Bundles the app into static files for production.
+
+  yarn test
+    Starts the test runner.
+
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd hooked
+  yarn start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
